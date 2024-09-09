@@ -81,7 +81,7 @@ partial class Form1 : Form
             GenerateFood();
             if (score % 5 == 0)
             {
-                speed -= 10;
+                speed -= 5;
                 gameTimer.Interval = speed;
             }
         }

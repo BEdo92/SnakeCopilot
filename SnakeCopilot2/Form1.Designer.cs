@@ -35,17 +35,19 @@
             // 
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(554, 447);
+            panel1.Size = new Size(432, 403);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(554, 447);
+            ClientSize = new Size(432, 403);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
